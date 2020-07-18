@@ -1,3 +1,47 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-color: red;
+    background: url('/media/homepage-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    font-family: 'Lato';
+}
+
+/* from https://bulma.io/documentation/elements/icon/  this will ensure whenever font
+awesome icon is used it will always stay perfectly centred and have a consistant size */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.shop-now-button {
+    background: #000;
+    color: #ffffff;
+    min-width: 260px;
+}
+
+.btn-black {
+    background: #000000;
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid #000 !important;
 }
