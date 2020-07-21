@@ -1,39 +1,100 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Zootropolis Stars
 
-Welcome Emal Fiza,
+---
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+### Milestone Project - Full Stack Frameworks with Django
 
-## Gitpod Reminders
+---
+Zootropolis stars is an ecommerce website aimed at fans of the amazing super hot Zootopia characters. Through it, the fans
+can purchase goods that replicate items that exist whithin the world of Disney, Zootopia movies and games like Zootopia Crime Files.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Zootopia copyrights is held by Disney. No copyrights infringement is intended with this ecommerce website, it's created for 
+educational purposes only, and no money is being made through the Zootrolopis Stars website.
 
-`python3 -m http.server`
+The project utalizes Python 3, Django 3.0.7, JavaScript and various other Frameworks and libraries. Full CRUD functionality is offered throughout features of the project.
 
-A blue button should appear to click: *Make Public*,
+### Project Purpose
 
-Another blue button should appear to click: *Open Browser*.
+---
+Zootopia is defiantly one of those amazing Disney movies that I could easily rewatch over and over again. 
+The underlying mystery of these animals becoming like animals is an interesting concept to see from their perspective. 
+Fans of Zootopia like myself wildy wants to collect and archive the super hot characters merchs. If you looking to have new collectives your on the right place. Vamos...
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+### Quick Quide
 
-Another blue button should appear to click: *Open Browser*.
+---
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
+### UX
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+---
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+---
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+### Future Developments
 
-Happy coding!
+---
+
+
+### Technologies Used
+
+---
+
+
+### Testing
+
+---
+
+
+### Responsive Design
+
+---
+
+
+### Compatibility
+
+---
+
+
+### File Structure
+
+---
+
+
+### Version Control and Heroku Deployment
+
+---
+
+
+### Credits
+
+---
+Thank to the author of the rabbit ears for my logo... copied from the following:
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+#### Author
+
+---
+
+
+#### Media
+
+---
+
+
+#### Inspiration
+
+---
+
+
+#### Acknowledgements
+
+---
+
+
+#### Submission
