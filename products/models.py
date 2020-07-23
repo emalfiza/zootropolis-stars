@@ -2,6 +2,10 @@ from django.db import models
 
 
 class Category(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Categories'
+
     category_name = models.TextField(max_length=100)
     friendly_name = models.TextField(max_length=100, null=True, blank=True)
 
