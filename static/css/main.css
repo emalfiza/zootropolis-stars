@@ -46,6 +46,16 @@ awesome icon is used it will always stay perfectly centred and have a consistant
     border: 1px solid #000 !important;
 }
 
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #ffffff;
+}
+
 
 /* -------------------------------- Media Queries */
 
