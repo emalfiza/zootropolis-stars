@@ -26,11 +26,11 @@
 			<div class="card shadow">
                 <div class="inner">
                     {% if product.image %}
-                    <a href="">
+                    <a href="{% url 'product_detail' product.id %}">
                         <img class="card-img-top" src="{{ product.image.url }}" alt="{{ product.name }}">
                     </a>
                     {% else %}
-                    <a href="">
+                    <a href="{% url 'product_detail' product.id %}">
                         <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                     </a>
                     {% endif %}
