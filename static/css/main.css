@@ -78,9 +78,14 @@ awesome icon is used it will always stay perfectly centred and have a consistant
     right: 10px;
 }
 
+.btt-button:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
 .btt-link {
     cursor: pointer;
 }
+
 
 /* -------------------------------- Media Queries */
 
