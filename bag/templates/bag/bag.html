@@ -59,6 +59,8 @@
                             </div>
                         </div>
                     </form>
+                    <a class="update-link badge badge-info text-white">Update</a>
+                    <a class="remove-item badge badge-danger text-white float-right">Remove </a>
                 </div>
                 <div class="col-6 col-sm-4 col-md-3">
                     <p class="text-right"><strong>Subtotal</strong></p>
@@ -96,4 +98,9 @@
                 </a>
         {% endif %}
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
