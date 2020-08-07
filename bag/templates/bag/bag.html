@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-6 offset-sm-0 col-sm-4 col-md-3">
                     <p class="text-left"><strong>Quantity</strong></p>
-                    <form class="form update-form" method="POST" action="">
+                    <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                         {% csrf_token %}
                         <div class="form-group">
                             <div class="input-group">
@@ -60,7 +60,7 @@
                         </div>
                     </form>
                     <a class="update-link badge badge-info text-white">Update</a>
-                    <a class="remove-item badge badge-danger text-white float-right">Remove </a>
+                    <a class="remove-item badge badge-danger text-white float-right" id="remove_{{ item.item_id }}">Remove </a>
                 </div>
                 <div class="col-6 col-sm-4 col-md-3">
                     <p class="text-right"><strong>Subtotal</strong></p>
@@ -103,4 +103,26 @@
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
+
+<script type="text/javascript">
+    // Update quantity on click
+    $('.update-link').click(function(e) {
+        var form = $(this).prev('.update-form');
+        form.submit();
+    })
+
+    // Remove item and reload on click
+    $('.remove-item').click(function(e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/bag/remove/${itemId}/`;
+        var data = {'csrfmiddlewaretoken': csrfToken};
+
+        $.post(url, data)
+         .done(function() {
+             location.reload();
+         });
+    })
+</script>
+
 {% endblock %}
