@@ -39,3 +39,13 @@ def adjust_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
+
+def remove_bag_item(request, item_id):
+    """ Delete or remove the item from the bag """
+
+    bag = request.session.get('bag', {})
+    bag.pop(item_id)
+
+    request.session['bag'] = bag
+    return redirect(reverse('view_bag'))
