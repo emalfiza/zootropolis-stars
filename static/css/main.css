@@ -27,10 +27,26 @@ awesome icon is used it will always stay perfectly centred and have a consistant
     width: fit-content;
 }
 
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 992px) {
+    .jumbotron {
+        margin-top: 100px;;
+
+    }
+}
+
 .shop-now-button {
     background: #000;
     color: #ffffff;
     min-width: 260px;
+}
+
+.shop-now-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
 }
 
 .btn-black {
