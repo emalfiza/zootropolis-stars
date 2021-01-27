@@ -9,6 +9,14 @@ body {
     font-family: 'Spectral', sans-serif;
 }
 
+.logo-image{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 /* from https://bulma.io/documentation/elements/icon/  this will ensure whenever font
 awesome icon is used it will always stay perfectly centred and have a consistant size */
 .icon {
@@ -44,7 +52,8 @@ awesome icon is used it will always stay perfectly centred and have a consistant
     min-width: 260px;
 }
 
-.shop-now-button:hover {
+.shop-now-button:hover,
+.btn-black:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: #ffffff;
 }
@@ -99,6 +108,7 @@ awesome icon is used it will always stay perfectly centred and have a consistant
     transform: scale(1.2);
 }
 
+/*************************************** Scroller Button */
 .btt-button {
     height: 42px;
     width: 42px;
