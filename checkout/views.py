@@ -33,6 +33,7 @@ def checkout(request):
         order_form = UserOrderForm(form_data)
         if order_form.is_valid():
             order = order_form.save()
+
             for item_id, item_data in bag.items():
                 product = Product.objects.get(id=item_id)
                 order_line_item = OrderLineItem(
@@ -41,12 +42,10 @@ def checkout(request):
                     quantity=item_data,
                     )
                 order_line_item.save()
-                messages.success(request, "You have successfully paid")
                 request.session['bag'] = {}
-                return redirect(reverse('products'))
+            return redirect(reverse('checkout_success'))
         else:
-            messages.error(request, 'There was an error with your form. \
-                Please double check your information.')
+            messages.error(request, 'There was an error with your form. \ Please double check your information.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
@@ -76,3 +75,16 @@ def checkout(request):
     }
 
     return render(request, template, context)
+
+
+def checkout_success(request):
+    """
+    Handle successful checkouts
+    """
+    # save_info = request.session.get('save_info')
+    # order = get_object_or_404(Order, full_name=full_name)
+    messages.success(request, "Order successfully processed.")
+
+    template = 'checkout/checkout_success.html'
+
+    return render(request, template)
