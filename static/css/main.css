@@ -17,6 +17,10 @@ body {
     margin-top: -6px;
 }
 
+.notice {
+    background-color: rgba(255,69,0,0.8);
+}
+
 /* from https://bulma.io/documentation/elements/icon/  this will ensure whenever font
 awesome icon is used it will always stay perfectly centred and have a consistant size */
 .icon {

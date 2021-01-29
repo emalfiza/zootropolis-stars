@@ -39,14 +39,17 @@
     
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
-            <div class="col-12 col-lg-6 my-auto py-1 py-lg-0 text-lg-left">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <div class="logo-image">
-                        <img src="media/party.png" class="img-fluid">
+                        <img src="/media/party.png" class="img-fluid">
                     </div>
                 </a>
             </div>
-            <div class="col-12 col-lg-6 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-4 my-auto">
+                <p class="notice text-center">Shipping may delay due to COVID-19</p>
+            </div>
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -93,11 +96,11 @@
         </div>
     </header>
     {% if messages %}
-	{% for message in messages %}
-	<div class="text-center alert alert-messages">
-		{{ message }}
-	</div>
-	{% endfor %}
+	    {% for message in messages %}
+	    <div class="text-center alert alert-messages">
+		    {{ message }}
+	    </div>
+	    {% endfor %}
 	{% endif %}
 
     
