@@ -8,8 +8,6 @@ from bag.contexts import bag_contents
 
 import stripe
 
-# Create your views here.
-
 
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
