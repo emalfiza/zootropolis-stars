@@ -1,1 +1,1 @@
-web: gunicorn zootropolis_stars.wsgi:application
+web: gunicorn zootropolis.wsgi:application
