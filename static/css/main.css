@@ -44,16 +44,10 @@ awesome icon is used it will always stay perfectly centred and have a consistant
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 991px) {
-    .jumbotron {
-        margin-top: 100px;;
-    }
-}
-
 .shop-now-button {
     background: #000;
     color: #ffffff;
-    min-width: 260px;
+    min-width: 230px;
 }
 
 .shop-now-button:hover,

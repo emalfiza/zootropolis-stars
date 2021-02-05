@@ -79,8 +79,6 @@ def checkout_success(request):
     """
     Handle successful checkouts
     """
-    # save_info = request.session.get('save_info')
-    # order = get_object_or_404(Order, full_name=full_name)
     messages.success(request, "Order successfully processed.")
 
     template = 'checkout/checkout_success.html'
