@@ -19,28 +19,72 @@ The underlying mystery of these animals becoming like animals is an interesting 
 
 Fans of Zootopia like myself wildy wants to collect and archive the super hot characters merchs. If you looking to have new collectives your on the right place. Vamos...
 
+#### [See here for a deployed app](https://zootropolis-stars.herokuapp.com/)
+---
 
+#### [See here for the high fidelity wireframe ] (https://c79emn.axshare.com/)
+---
+High fidelity prototype is created in Axure, as this helped me design better.
 
 ### Quick Quide**
 ---
 ###### HOME
 The home page features a very special hero image of the Zootopia Stars and a nice bootstrap jumotron rgba opacity background colour with a large SHOP NOW button.
 
+<details>
+<summary>See here for the Home Page</summary>
+
+<p align="center">
+    <img height="350" src="./image/home-page.png" alt="home page">
+</p>
+</details>
+
 
 ###### ALL PRODUCTS
 The all products page is a filtered products which is exist on the site. This can be accessed by clicking the ALL PRODUCTS label on the navigation bar and as well as the SHOP NOW button on the home page.
+
+<details>
+<summary>See here for the All Product Page</summary>
+
+<p align="center">
+    <img height="350" src="./image/all-product.png" alt="all-product page">
+</p>
+</details>
 
 
 ###### CLOTHING
 The clothing label filters only the clothing products which exist in the database. This can be accessed by clicking on the clothing label on the navigation bar.
 
+<details>
+<summary>See here for the Clothing Page</summary>
+
+<p align="center">
+    <img height="350" src=".image/clothing-page.png" alt="clothing page">
+</p>
+</details>
 
 ###### CANVAS
 The canvas label filters only the canvas and prints products of the Zootopia which exist in the database. This can be accessed by clicking on the canvas label on the navigation bar. 
 
+<details>
+<summary>See here for the Canvas Page</summary>
+
+<p align="center">
+    <img height="350" src=".image/canvas-page.png" alt="canvas prints page">
+</p>
+</details>
+
 
 ###### SPECIAL OFFER
 The special offer label filters only the products which are on special offer that can be only added by the superuser on the admin page. This can be accessed by clicking on the special offer label on the navigation bar.
+
+<details>
+<summary>See here for the Special Offer Page</summary>
+
+<p align="center">
+    <img height="350" src="./image/special-offer.png" alt="special offer page">
+</p>
+</details>
 
 
 ***NOTE***:
@@ -56,9 +100,24 @@ The scroll-to-top-button gives the user the ability to get back to the top of th
 ###### PRODUCTS DETAIL
 Clinking on the product image will take the user to the product detail page. The product detail page contains the product picture with a description below the picture. The name, price, category, quantity, add to bag and back to shopping on the right of the product picture on the large screen. It will adjust and response defferently on the small screen size.
 
+<details>
+<summary>See here for the Product Detail Page</summary>
+
+<p align="center">
+    <img height="350" src="./image/product-detail.png" alt="product-detail page">
+</p>
+</details>
 
 ###### SHOPPING BAG
 The shopping bag consist of the product picture on the left, name of the product, price, quantity and subtotal filling there places horozintally. The quantity allows the user to update and remove the item from the shopping bag by clicking the update and remove link. On the buttom right cornor of the page is the bag total, delivery cost, grand total, keep shopping bag button and secure checkout button.
+
+<details>
+<summary>See here for the Shopping Bag Page</summary>
+
+<p align="center">
+    <img height="350" src="./image/shopping-bag.png" alt="shopping bag page">
+</p>
+</details>
 
 
 ###### CHECKOUT
@@ -66,13 +125,36 @@ The checkout page is accessable by clicking the secure checkout button from the 
 
 4242 4242 4242 4242 04/24 242 42424
 
+<details>
+<summary>See here for the Checkout</summary>
+
+<p align="center">
+    <img height="350" src="./image/checkout.png" alt="checkout page">
+</p>
+</details>
+
 
 ###### CHECKOUT SUCCESS
 Clicking the complete order button on the checkout page will take the user to the checkout success page only all the details are correct. The checkout success page is a simple thank you message and a shop more button that gives the user the ability to go back to the product page.
 
+<details>
+<summary>See here for the Checkout Success Page</summary>
+
+<p align="center">
+    <img height="350" src="./image/checkout-successpng" alt="checkout success page">
+</p>
+</details>
 
 ###### My Account
 My Account gives the user the ease to register, login and logout with simple layout of the django all auth template.
+
+<details>
+<summary>See here for the Account Page</summary>
+
+<p align="center">
+    <img height="350" src="./image/account.png" alt="account page">
+</p>
+</details>
 
 
 ### UX
@@ -150,6 +232,7 @@ Defensive design planning for this project at this moment of the development was
 11. [JQUERY](https://code.jquery.com/jquery-3.3.1.slim.min.js).
 12. [JAVASCRIPT] (https://www.javascript.com/).
 13. [Am I Responsive?](http://ami.responsivedesign.is/#) - Was used for the responsiveness of the app.
+14. [Axure] (https://www.axure.com/) for the high fidelity wireframe
 
 
 
@@ -162,78 +245,38 @@ Defensive design planning for this project at this moment of the development was
 
 
 
-
-
-**### Compatibility**
-
-
-
-\---
+### Compatibility
+---
 
 
 
-
-
-**### Version Control and Heroku Deployment**
-
-
-
-\---
+### Version Control and Heroku Deployment
+---
 
 
 
 
-
-**### Credits**
-
-
-
-\---
-
+### Credits
+---
 Thank to the author of the rabbit ears for my logo... copied from the following:
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 
 
-**#### Author**
+#### Author
+---
 
 
 
-\---
+#### Inspiration
+---
 
 
 
+#### Acknowledgements
+---
 
 
-**#### Media**
-
-
-
-\---
-
-
-
-
-
-**#### Inspiration**
-
-
-
-\---
-
-
-
-
-
-**#### Acknowledgements**
-
-
-
-\---
-
-
-
-
-
-**#### Submission**
+#### Submission
+---
