@@ -36,7 +36,7 @@ The home page features a very special hero image of the Zootopia Stars and a nic
 <summary>See here for the Home Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/home-page.png" alt="home page">
+    <img height="350" src="./images/home-page.png" alt="home page">
 </p>
 </details>
 
@@ -48,7 +48,7 @@ The all products page is a filtered products which is exist on the site. This ca
 <summary>See here for the All Product Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/all-product.png" alt="all-product page">
+    <img height="350" src="./images/all-product.png" alt="all-product page">
 </p>
 </details>
 
@@ -60,7 +60,7 @@ The clothing label filters only the clothing products which exist in the databas
 <summary>See here for the Clothing Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/clothing-page.png" alt="clothing page">
+    <img height="350" src="./images/clothing-page.png" alt="clothing page">
 </p>
 </details>
 
@@ -72,7 +72,7 @@ The canvas label filters only the canvas and prints products of the Zootopia whi
 <summary>See here for the Canvas Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/canvas-page.png" alt="canvas prints page">
+    <img height="350" src="./images/canvas-page.png" alt="canvas prints page">
 </p>
 </details>
 
@@ -84,7 +84,7 @@ The special offer label filters only the products which are on special offer tha
 <summary>See here for the Special Offer Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/special-offer.png" alt="special offer page">
+    <img height="350" src="./images/special-offer.png" alt="special offer page">
 </p>
 </details>
 
@@ -106,7 +106,7 @@ Clinking on the product image will take the user to the product detail page. The
 <summary>See here for the Product Detail Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/product-detail.png" alt="product-detail page">
+    <img height="350" src="./images/product-detail.png" alt="product-detail page">
 </p>
 </details>
 
@@ -118,7 +118,7 @@ The shopping bag consist of the product picture on the left, name of the product
 <summary>See here for the Shopping Bag Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/shopping-bag.png" alt="shopping bag page">
+    <img height="350" src="./images/shopping-bag.png" alt="shopping bag page">
 </p>
 </details>
 
@@ -132,7 +132,7 @@ The checkout page is accessable by clicking the secure checkout button from the 
 <summary>See here for the Checkout</summary>
 
 <p align="center">
-    <img height="350" src="/image/checkout.png" alt="checkout page">
+    <img height="350" src="./images/checkout.png" alt="checkout page">
 </p>
 </details>
 
@@ -144,7 +144,7 @@ Clicking the complete order button on the checkout page will take the user to th
 <summary>See here for the Checkout Success Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/checkout-successpng" alt="checkout success page">
+    <img height="350" src="./images/checkout-successpng" alt="checkout success page">
 </p>
 </details>
 
@@ -156,7 +156,7 @@ My Account gives the user the ease to register, login and logout with simple lay
 <summary>See here for the Account Page</summary>
 
 <p align="center">
-    <img height="350" src="/image/account.png" alt="account page">
+    <img height="350" src="./images/account.png" alt="account page">
 </p>
 </details>
 
