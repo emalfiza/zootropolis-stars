@@ -11,7 +11,7 @@ The Zootopia copyrights is held by Disney. No copyrights infringement is intende
 The project utalizes Python 3, Django 3.0.7, JavaScript and various other Frameworks and libraries. Full CRUD functionality is offered throughout features of the project.
 
 
-### Project Purpose**
+### Project Purpose
 ---
 Zootopia is defiantly one of those amazing Disney movies that I could easily rewatch over and over again. 
 
@@ -19,12 +19,13 @@ The underlying mystery of these animals becoming like animals is an interesting 
 
 Fans of Zootopia like myself wildy wants to collect and archive the super hot characters merchs. If you looking to have new collectives your on the right place. Vamos...
 
-#### [See here for a deployed app](https://zootropolis-stars.herokuapp.com/)
----
 
-#### [See here for the high fidelity wireframe ] (https://c79emn.axshare.com/)
+#### [See here for a deployed app](https://zootropolis-stars.herokuapp.com/)
+
+#### [See here for the high fidelity wireframe](https://c79emn.axshare.com/)
 ---
 High fidelity prototype is created in Axure, as this helped me design better.
+
 
 ### Quick Quide**
 ---
@@ -35,7 +36,7 @@ The home page features a very special hero image of the Zootopia Stars and a nic
 <summary>See here for the Home Page</summary>
 
 <p align="center">
-    <img height="350" src="./image/home-page.png" alt="home page">
+    <img height="350" src="/image/home-page.png" alt="home page">
 </p>
 </details>
 
@@ -47,7 +48,7 @@ The all products page is a filtered products which is exist on the site. This ca
 <summary>See here for the All Product Page</summary>
 
 <p align="center">
-    <img height="350" src="./image/all-product.png" alt="all-product page">
+    <img height="350" src="/image/all-product.png" alt="all-product page">
 </p>
 </details>
 
@@ -59,9 +60,10 @@ The clothing label filters only the clothing products which exist in the databas
 <summary>See here for the Clothing Page</summary>
 
 <p align="center">
-    <img height="350" src=".image/clothing-page.png" alt="clothing page">
+    <img height="350" src="/image/clothing-page.png" alt="clothing page">
 </p>
 </details>
+
 
 ###### CANVAS
 The canvas label filters only the canvas and prints products of the Zootopia which exist in the database. This can be accessed by clicking on the canvas label on the navigation bar. 
@@ -70,7 +72,7 @@ The canvas label filters only the canvas and prints products of the Zootopia whi
 <summary>See here for the Canvas Page</summary>
 
 <p align="center">
-    <img height="350" src=".image/canvas-page.png" alt="canvas prints page">
+    <img height="350" src="/image/canvas-page.png" alt="canvas prints page">
 </p>
 </details>
 
@@ -82,7 +84,7 @@ The special offer label filters only the products which are on special offer tha
 <summary>See here for the Special Offer Page</summary>
 
 <p align="center">
-    <img height="350" src="./image/special-offer.png" alt="special offer page">
+    <img height="350" src="/image/special-offer.png" alt="special offer page">
 </p>
 </details>
 
@@ -104,9 +106,10 @@ Clinking on the product image will take the user to the product detail page. The
 <summary>See here for the Product Detail Page</summary>
 
 <p align="center">
-    <img height="350" src="./image/product-detail.png" alt="product-detail page">
+    <img height="350" src="/image/product-detail.png" alt="product-detail page">
 </p>
 </details>
+
 
 ###### SHOPPING BAG
 The shopping bag consist of the product picture on the left, name of the product, price, quantity and subtotal filling there places horozintally. The quantity allows the user to update and remove the item from the shopping bag by clicking the update and remove link. On the buttom right cornor of the page is the bag total, delivery cost, grand total, keep shopping bag button and secure checkout button.
@@ -115,7 +118,7 @@ The shopping bag consist of the product picture on the left, name of the product
 <summary>See here for the Shopping Bag Page</summary>
 
 <p align="center">
-    <img height="350" src="./image/shopping-bag.png" alt="shopping bag page">
+    <img height="350" src="/image/shopping-bag.png" alt="shopping bag page">
 </p>
 </details>
 
@@ -129,7 +132,7 @@ The checkout page is accessable by clicking the secure checkout button from the 
 <summary>See here for the Checkout</summary>
 
 <p align="center">
-    <img height="350" src="./image/checkout.png" alt="checkout page">
+    <img height="350" src="/image/checkout.png" alt="checkout page">
 </p>
 </details>
 
@@ -141,9 +144,10 @@ Clicking the complete order button on the checkout page will take the user to th
 <summary>See here for the Checkout Success Page</summary>
 
 <p align="center">
-    <img height="350" src="./image/checkout-successpng" alt="checkout success page">
+    <img height="350" src="/image/checkout-successpng" alt="checkout success page">
 </p>
 </details>
+
 
 ###### My Account
 My Account gives the user the ease to register, login and logout with simple layout of the django all auth template.
@@ -152,7 +156,7 @@ My Account gives the user the ease to register, login and logout with simple lay
 <summary>See here for the Account Page</summary>
 
 <p align="center">
-    <img height="350" src="./image/account.png" alt="account page">
+    <img height="350" src="/image/account.png" alt="account page">
 </p>
 </details>
 
