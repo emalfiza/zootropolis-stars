@@ -27,7 +27,7 @@ Fans of Zootopia like myself wildy wants to collect and archive the super hot ch
 High fidelity prototype is created in Axure, as this helped me design better.
 
 
-### Quick Quide**
+### Quick Quide
 ---
 ###### HOME
 The home page features a very special hero image of the Zootopia Stars and a nice bootstrap jumotron rgba opacity background colour with a large SHOP NOW button.
